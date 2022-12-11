@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Card from 'react-bootstrap/Card';
+import Matrial from './Matrial';
 function App() {
   return (
     <div className="App">
@@ -75,7 +76,7 @@ function App() {
       </Card.Body>
     </Card>
     </div>
-     
+     <Matrial></Matrial>
     </div>
   );
 }
