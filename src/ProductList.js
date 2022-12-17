@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 export default class ProductList extends Component {
+    constructor(props){
+      console.log("props",props)
+     super(props)
+
+    }
   render() {
     return (
       <div>
@@ -22,6 +27,9 @@ export default class ProductList extends Component {
         <Card.Title>Camera</Card.Title>
         <Card.Text>
           5000
+        </Card.Text>
+        <Card.Text>
+          {this.props.description}
         </Card.Text>
         <Button variant="primary">ADD To Cart</Button>
       </Card.Body>

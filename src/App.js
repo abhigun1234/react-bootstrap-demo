@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import Card from 'react-bootstrap/Card';
 import Matrial from './Matrial';
 import Header from './Header';
@@ -10,7 +12,7 @@ function App() {
     <div className="App">
  
     <Header></Header>
-    <ProductList></ProductList>
+    <ProductList description="fancy "></ProductList>
   
     </div>
   );
