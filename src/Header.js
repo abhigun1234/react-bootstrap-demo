@@ -17,6 +17,8 @@ function Header(props) {
                                 <Nav.Link href="#link">Products</Nav.Link>
                                 <Nav.Link href="#link">AboutUs</Nav.Link>
                                 <Nav.Link href="#link">Contact Us</Nav.Link>
+                                <Nav.Link href="#link">{props.title}</Nav.Link>
+                                <img src="https://tse2.mm.bing.net/th?id=OIP.aVNmxPweH37Seo0fPQH80QHaF7&pid=Api&P=0"></img>
                             </Nav>
                             </Navbar.Collapse>
                         </Container>
